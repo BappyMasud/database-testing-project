@@ -1,14 +1,27 @@
--- View all employee records
-SELECT * 
-FROM employees;
+-- view this demo e-commerce application database's all tables records
+SELECT * FROM customers;
+SELECT * FROM products;
+SELECT * FROM orders;
+SELECT * FROM order_details;
+SELECT * FROM payments;
 
--- View employees with salary greater than 50000
-SELECT *
-FROM employees
-WHERE salary > 50000;
+-- view orders greater than 50,000
+SELECT * FROM orders
+WHERE total_amount > 50000;
 
--- View employees from IT department
-SELECT *
-FROM employees
-WHERE department = 'IT';
+-- find customers by phone number
+SELECT * FROM customers
+WHERE phone = 01711111111;
+
+-- Sort order by purchase amount
+SELECT * FROM orders
+ORDER BY total_amount DESC;
+
+-- Sort order by purchase date
+SELECT * FROM orders
+ORDER BY order_date ASC;
+
+-- Display customers email ID
+SELECT DISTINCT email
+FROM customers;
 
