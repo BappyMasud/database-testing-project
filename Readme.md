@@ -1,7 +1,7 @@
-# MySQL Company Employee Database Project
+# E-commerce Web Application Database Project (MySQL)
 ## Project Overview
 
-This project demonstrates hands-on MySQL database operations using a Company Employee Management System developed and tested in Laragon.
+This project demonstrates hands-on MySQL database operations using a demo e-commerce web application’s customer and product management system, developed and tested in Laragon.
 
 The main objective of this project is to practice real-world SQL queries and strengthen database management and database testing skills for Software Quality Assurance (SQA) learning.
 
@@ -62,8 +62,4 @@ README.md
 
 ## Conclusion
 
-This project provided practical experience in working with MySQL databases and performing real-world SQL operations using the Company Employee Management System. Through this project, important database concepts such as database creation, table management, CRUD operations, filtering, sorting, aggregate functions, and SQL joins were successfully practiced and implemented.
-
-The project also helped strengthen understanding of database testing concepts including data validation, query verification, and maintaining data consistency. Using Laragon as the local development environment improved hands-on experience with managing and executing SQL queries in a professional workflow.
-
-Overall, this project enhanced practical SQL knowledge, problem-solving ability, and project documentation skills while also building a strong foundation for future learning in Software Quality Assurance (SQA), database testing, and backend data management.
+The project focused on gaining practical experience with MySQL databases through the Web E-commerce Management System. Key database concepts were practiced, such as database creation, table management, CRUD operations, and SQL joins. It also emphasized database testing concepts like data validation and query verification. Using Laragon as a local development environment enhanced the experience of managing SQL queries. Overall, the project improved SQL knowledge, problem-solving skills, and documentation abilities, laying a solid foundation for future learning in Software Quality Assurance, database testing, and backend data management.
